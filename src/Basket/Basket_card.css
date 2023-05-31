@@ -1,0 +1,230 @@
+
+.header-style {
+
+
+
+
+
+  font-family: 'Arial', sans-serif;
+  font-weight: bold; 
+  font-size: 24px; 
+  margin-bottom: 10px; 
+  color: #ffffff;
+  text-align: center; 
+  background: #474747; 
+  padding: 10px; 
+  width: 50%;
+  display: flex ;
+  justify-content: center;
+}
+.basket-button3 {
+  background: #ffffff; 
+  padding: 10px; 
+  border: none;
+  
+  font-size: 20px; 
+
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  width: 40%;
+  display: flex ;
+  justify-content: center;
+}
+.basket-button3:disabled{
+  background-color: #ebebeb;
+  color: #c2c2c2;
+  border: 1px solid #999999;
+  cursor: not-allowed;
+  
+}
+.basket-button3:hover {
+  background-color: #00c59a;
+}
+.center{
+  display: flex;
+  justify-content: spa;
+  align-items: center;
+  flex-direction: column;
+}
+
+.basket{
+  display: flex;
+  width: 90%;
+  height: 100px;
+  margin: 50px auto;
+  background: linear-gradient(to bottom right, rgba(246, 243, 243, 0.4), rgba(230, 20, 20, 0));
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
+
+.basket.background{
+   opacity: 0.2;
+}
+
+@media screen and (max-width: 600px) {
+  .basket-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .basket-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .basket-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.basket:hover {
+    box-shadow: 0 26px 26px rgba(255, 255, 255, 0.3);
+
+  
+}
+
+.modal-content{
+  display: flex;
+  font-weight: bold;
+  font-size: large;
+  color: #ffffff;
+}
+.basket-image {
+  
+  width: 15%;
+  
+   float: left;
+  transition: transform 0.1s ease-in-out;
+}
+
+.basket-image:hover {
+  transform: scale(1.3);
+}
+
+
+
+
+.basket-text {
+  display: inline;
+  float: left;
+
+margin-right: 20px;
+margin-left: 20px ;
+  font-size: 0.9rem;
+ 
+}
+
+.basket-price {
+  display: inline;
+  float: left;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+  
+margin-right: 20px;
+margin-left: 20px ;
+}
+.basket-button:disabled{
+  background-color: #ebebeb;
+  color: #c2c2c2;
+  border: 1px solid #999999;
+  cursor: not-allowed;
+  
+}
+.basket-button {
+  display: inline;
+  width: 80px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  
+  transition: background-color 0.1s ease-in-out;
+}
+.basket-button2 {
+  display: inline;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  margin-bottom: 2%;
+margin-right: 20px;
+margin-left: 20px ;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+  padding-bottom: 10px;
+  width: 75px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+  background-color: #ffffff;
+  border-color: #000000;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+
+  transition: background-color 0.1s ease-in-out;
+}
+.basket-button2:hover {
+  background-color: #00c59a;
+}
+.basket-button:hover {
+  background-color: #00c59a;
+}
+
+/* Style for desktop view */
+@media (min-width: 768px) {
+  .basket-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+}
+
+/* Style for mobile view */
+@media (max-width: 767px) {
+  .basket-container {
+    display: block;
+    flex-direction: column;
+    overflow-x: auto;
+  }
+
+  .basket {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .basket-title {
+  display: inline;
+  
+margin-right: 20px;
+margin-left: 20px ;
+padding-left: 20px;
+padding-bottom: 20px;
+  font-size: 1.2rem;
+  margin: 0;
+  
+}
+}
+
+
+@media (max-width: 767px) {
+  .basket-title {
+    display: none;
+  }
+}
