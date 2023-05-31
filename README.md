@@ -6,7 +6,7 @@ A full MERN STACK application created with react on the front end and node for t
 
 #Tech stack
 Mongodb for the database 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/2560px-MongoDB_Logo.svg.png" width="100" height="100">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/2560px-MongoDB_Logo.svg.png" width="200">
 Express and Node for the backend
 React for the front end
 
