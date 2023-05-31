@@ -17,4 +17,7 @@ In that case view the video below to check what the website looked like!
 
 
 # Demo
-//to do
+
+
+https://github.com/preetgami/econ-frontend/assets/109097825/8c3aa590-edf6-4d46-95d6-03b9711d8078
+
