@@ -6,9 +6,9 @@ A full MERN STACK application created with react on the front end and node for t
 
 # Tech stack 
 
-
-## Mongodb-Databse
-## Express and Node-Backend         
+## MongoDB- Databse
+## Express- Backend
+## Node - Backend
 ## React for the front end
 
 If the link above doesn't work it's likely due to the free hosting subscription running out.
