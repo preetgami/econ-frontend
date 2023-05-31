@@ -3,6 +3,7 @@ https://ecom-site-7cfad.firebaseapp.com/
 
 
 A full MERN STACK application created with react on the front end and node for the backend.
+This is an ecommerce site that allows users to buy art. 
 
 # Tech stack 
 
@@ -18,6 +19,9 @@ In that case view the video below to check what the website looked like!
 
 # Demo
 
+## Desktop
+https://github.com/preetgami/econ-frontend/assets/109097825/de3e1124-dc36-4cdf-8183-2607d3f6d56f
 
-https://github.com/preetgami/econ-frontend/assets/109097825/8c3aa590-edf6-4d46-95d6-03b9711d8078
+## Mobile
+https://github.com/preetgami/econ-frontend/assets/109097825/2508b9f4-5751-45d0-a30c-c2353277905f
 
