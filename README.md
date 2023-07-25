@@ -1,8 +1,10 @@
 # Front end for the ecomerce website 👇
-https://ecom-site-7cfad.firebaseapp.com/
 
+If the link above doesn't work it's likely due to the free hosting subscription running out.
+In that case view the video below to check what the website looked like!
 
 A full MERN STACK application created with react on the front end and node for the backend.
+It also had Stripe intergration for ease of checkout. 
 This is an ecommerce site that allows users to buy art. 
 
 # Tech stack 
@@ -12,8 +14,7 @@ This is an ecommerce site that allows users to buy art.
 + Node - Backend
 + React for the front end
 
-If the link above doesn't work it's likely due to the free hosting subscription running out.
-In that case view the video below to check what the website looked like!
+
 
 
 
